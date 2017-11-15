@@ -23,7 +23,6 @@ import io.reactivex.schedulers.Schedulers;
 
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener, AdapterView.OnItemLongClickListener {
 
-    private UserDao userDao;
     private EditText etFirst;
     private EditText etLast;
     private ListView lvContent;
